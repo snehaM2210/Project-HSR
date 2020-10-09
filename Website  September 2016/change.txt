@@ -1,0 +1,39 @@
+custom.js
+
+	$k("#category-treeview").treeview({
+		animated: "slow",
+		collapsed: true,
+		unique: true		
+	});
+
+
+
+
+	$k(".category-treeview").treeview({
+		animated: "slow",
+		collapsed: true,
+		unique: true		
+	});
+	
+
+
+
+
+
+source code
+
+
+ <ul id="category-treeview" class="treeview-side treeview">
+
+
+
+<ul class="category-treeview treeview-side treeview">
+
+
+
+style.css
+
+.header .quick-access { float:right; width:600px; padding:0px 0px 0 0; }
+
+
+.header .quick-access { float:right; width:280px; padding:0px 0px 0 0; }

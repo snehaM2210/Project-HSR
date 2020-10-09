@@ -1,0 +1,539 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="ie9" lang="en"> <![endif]-->
+<!--[if !IE]> <html lang="en"><![endif]-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<!-- Palm -->
+<meta name="HandheldFriendly" content="True" />
+<!-- Windows -->
+<meta name="MobileOptimized" content="320" />
+<!-- Safari, Android, BB, Opera -->
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Journal</title>
+<meta name="description" content="Default Description" />
+<meta name="keywords" content="Magento, Varien, E-commerce" />
+<meta name="robots" content="INDEX,FOLLOW" />
+<link rel="icon" href="fabicon/fab.png" type="image/x-icon" />
+<link rel="shortcut icon" href="fabicon/fab.png" type="image/x-icon" />
+<link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css' />
+<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css' />
+<!--[if lt IE 7]>
+<script type="text/javascript">
+//<![CDATA[
+    var BLANK_URL = 'http://mage-demos.org/MAG191/js/blank.html';
+    var BLANK_IMG = 'http://mage-demos.org/MAG191/js/spacer.gif';
+//]]>
+</script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="skin/frontend/default/MAG090182/css/styles.css" media="all" />
+<link rel="stylesheet" type="text/css" href="skin/frontend/base/default/css/widgets.css" media="all" />
+<link rel="stylesheet" type="text/css" href="skin/frontend/default/MAG090182/css/megnor/custom.css" media="all" />
+<link rel="stylesheet" type="text/css" href="skin/frontend/default/MAG090182/css/megnor/tm_flexslider.css" media="all" />
+<link rel="stylesheet" type="text/css" href="skin/frontend/default/MAG090182/css/megnor/carousel.css" media="all" />
+<link rel="stylesheet" type="text/css" href="skin/frontend/default/MAG090182/css/megnor/style.css" media="all" />
+<link rel="stylesheet" type="text/css" href="skin/frontend/default/MAG090182/css/megnor/responsive.css" media="all" />
+<link rel="stylesheet" type="text/css" href="skin/frontend/default/default/css/print.css" media="print" />
+
+<script type="text/javascript" src="js/prototype/prototype.js"></script>
+<script type="text/javascript" src="js/lib/ccard.js"></script>
+<script type="text/javascript" src="js/prototype/validation.js"></script>
+<script type="text/javascript" src="js/scriptaculous/builder.js"></script>
+<script type="text/javascript" src="js/scriptaculous/effects.js"></script>
+<script type="text/javascript" src="js/scriptaculous/dragdrop.js"></script>
+<script type="text/javascript" src="js/scriptaculous/controls.js"></script>
+<script type="text/javascript" src="js/scriptaculous/slider.js"></script>
+<script type="text/javascript" src="js/varien/js.js"></script>
+<script type="text/javascript" src="js/varien/form.js"></script>
+<script type="text/javascript" src="js/varien/menu.js"></script>
+<script type="text/javascript" src="js/mage/translate.js"></script>
+<script type="text/javascript" src="js/mage/cookies.js"></script>
+<script type="text/javascript" src="js/megnor/html5.js"></script>
+<script type="text/javascript" src="js/megnor/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="js/megnor/tm_jquery.flexslider.min.js"></script>
+<script type="text/javascript" src="js/megnor/megnor.min.js"></script>
+<script type="text/javascript" src="js/megnor/jquery.selectbox-0.2.min.js"></script>
+<script type="text/javascript" src="js/megnor/carousel.min.js"></script>
+<script type="text/javascript" src="js/megnor/jstree.min.js"></script>
+<script type="text/javascript" src="js/megnor/scrolltop.min.js"></script>
+<script type="text/javascript" src="js/megnor/advancedmenu.js"></script>
+<script type="text/javascript" src="skin/frontend/default/MAG090182/js/custom.js"></script>
+<!--[if lt IE 8]>
+<link rel="stylesheet" type="text/css" href="http://mage-demos.org/MAG191/skin/frontend/default/default/css/styles-ie.css" media="all" />
+<![endif]-->
+<!--[if lt IE 7]>
+<script type="text/javascript" src="http://mage-demos.org/MAG191/js/lib/ds-sleight.js"></script>
+<script type="text/javascript" src="http://mage-demos.org/MAG191/skin/frontend/base/default/js/ie6.js"></script>
+<![endif]-->
+
+<script type="text/javascript">
+//<![CDATA[
+Mage.Cookies.path     = '/MAG191/MAG090182';
+Mage.Cookies.domain   = '.mage-demos.org';
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+optionalZipCountries = ["HK","IE","MO","PA"];
+//]]>
+</script>
+<script type="text/javascript">//<![CDATA[
+        var Translator = new Translate([]);
+        //]]></script> 
+        
+        
+        <style>
+        	@media only screen and (min-width: 980px){
+				.flexslider{
+					height:200px;
+				}
+			}
+			
+
+		
+        </style>
+          
+<!--          <style>
+		  #nav ul span, #nav ul li.last li span, .responsive-menu li a {
+    padding: 2px 1px;
+}
+		  
+		  </style>
+        -->
+        
+        
+        
+    
+        
+</head>
+<body class=" cms-index-index cms-home">
+<div class="wrapper">
+        <noscript>
+        <div class="global-site-notice noscript">
+            <div class="notice-inner">
+                <p>
+                    <strong>JavaScript seems to be disabled in your browser.</strong><br />
+                    You must have JavaScript enabled in your browser to utilize the functionality of this website.                </p>
+            </div>
+        </div>
+    </noscript>
+    <div class="page">
+         
+<header class="header-container">  
+	<div class="header">
+	
+		<div class="header-bottom"> 
+			
+						<div class="row">
+    <div class="col-sm-4">
+		<a href="index.html" title="Magento Commerce" class="logo"><strong>Magento Commerce</strong><img src="skin/frontend/default/MAG090182/images/LOGO PNG.png" alt="Magento Commerce" /></a>
+      
+    </div>
+    
+    
+    <div class="col-sm-6">
+	<a href="index.html" title="Magento Commerce" class="logo"><strong>Magento Commerce</strong><img src="img/house png.png" alt="Magento Commerce" style="width:100%; height:auto;" /></a>
+    
+    </div>
+    <div class="col-sm-2">
+
+    </div>
+  </div>
+							
+			
+				<div class="quick-access">
+				
+					
+				</div>
+			
+					</div>
+	</div>
+</header>
+
+<nav class="nav-container">
+	<div class="nav-inner">
+    
+    <div class="tm-homeslider">
+<div class="flexslider">
+<ul class="slides">
+<li><a href="#"><img src="journal slide/annals of pure.jpg" alt="" /></a></li>
+<li><a href="#"><img src="journal slide/annals of pure.jpg" alt="" /></a></li>
+<li><a href="#"><img src="journal slide/annals of pure.jpg" alt="" /></a></li>
+</ul>
+</div>
+</div>
+    
+    
+	<div class="menu_inner">
+    <div id="advancedmenu">
+                <div class="menu">
+            <div class="parentMenu menu0 home_link">
+                <a href="index.html">
+                    <span>Home</span>
+                </a>
+            </div>
+        </div>
+                            <div id="menu5" class="menu" onmouseover="megnorShowMenuPopup(this, 'popup5');" onmouseout="megnorHideMenuPopup(this, event, 'popup5', 'menu5')">
+<div class="parentMenu">
+<a href="APAMtoc.html">
+<span>Table of Contents</span>
+</a>
+</div>
+</div>
+                 <div id="menu6" class="menu" onmouseover="megnorShowMenuPopup(this, 'popup6');" onmouseout="megnorHideMenuPopup(this, event, 'popup6', 'menu6')">
+<div class="parentMenu">
+<a href="apamart\APAMabs.html">
+<span>Abstracting & Indexing</span>
+</a>
+</div>
+</div>
+                 <div id="menu7" class="menu">
+<div class="parentMenu">
+<a href="#">
+<span>Special Issue</span>
+</a>
+</div>
+</div>                    <div id="menu8" class="menu">
+<div class="parentMenu">
+<a href="#">
+<span>Conference</span>
+</a>
+</div>
+</div>     
+
+
+<div id="menu8" class="menu">
+<div class="parentMenu">
+<a href="submit.html">
+<span>Online Submission</span>
+</a>
+</div>
+</div>
+              
+		<div class="clearBoth"></div>
+    </div>
+	
+	<!-- Code for responsive menu start -->
+		<div class="nav-responsive" style="display:none;"><span>Menu</span><div class="expandable"></div></div>
+		<div class="responsive_menu">
+			<ul id="nav" class="advanced_nav">
+				<li class="level0 nav-1 level-top first parent">
+<a href="index.html" class="level-top">
+<span>Home</span>
+</a>
+
+</li><li class="level0 nav-2 level-top parent">
+<a href="APAMtoc.html" class="level-top">
+<span>Table of Contents</span>
+</a>
+
+</li><li class="level0 nav-3 level-top">
+<a href="APAMabs.html" class="level-top">
+<span>Abstracting & Indexing</span>
+</a>
+</li><li class="level0 nav-4 level-top">
+<a href="#" class="level-top">
+<span>Special Issue</span>
+</a>
+</li>
+<li class="level0 nav-5 level-top last">
+<a href="#" class="level-top">
+<span>Conference</span>
+</a>
+</li>		
+<li class="level0 nav-5 level-top last">
+<a href="submit.html" class="level-top">
+<span>Online Submission</span>
+</a>
+</li>
+
+	</ul>
+		</div>
+	</div>	
+	<!-- Code for responsive menu end -->
+	</div>
+</nav>
+
+
+
+<script type="text/javascript">
+//<![CDATA[
+var CUSTOMMENU_POPUP_WIDTH = 0;
+var CUSTOMMENU_POPUP_TOP_OFFSET = 0;
+var CUSTOMMENU_POPUP_RIGHT_OFFSET_MIN = 0;
+var CUSTOMMENU_POPUP_DELAY_BEFORE_DISPLAYING = 0;
+var CUSTOMMENU_POPUP_DELAY_BEFORE_HIDING = 0;
+var megnorCustommenuTimerShow = {};
+var megnorCustommenuTimerHide = {};
+//]]>
+</script>
+
+ 		        <section class="main-container col2-left-layout">
+		<h2 style="display:none;">&nbsp;</h2>
+            <div class="main"> 
+                <article class="col-main">
+					                                        <div class="std"><div class="slider_banner_content">
+
+<div>
+
+ <div class="featured-products">
+
+ 
+ <div class="products-grid" id="featured-grid">
+	     	
+<div class=""><h2 style="background-color: #026688;"><a href="featured-products.html" style="font-size:19px; color:#FFFFFF; text-align: justify;"><b style="padding: 10px;">About the Journal and Editorial Board </b></a></h2></div>			
+
+        <ul class="products-grid" id="featured-grid" style="width: 635px; padding: 0px 40px;">
+                
+     
+      	<p><strong>Annals of Pure and Applied Mathematics (APAM)</strong> is an open access, peer reviewed and refereed journal devoted to publication
+of original research articles as well as review articles, with emphasis on unsolved problems and open questions in all
+branches of Pure and Applied Mathematics.
+</p>
+     
+        </ul> 
+        
+   	<div ><h2 style="background-color: #026688;"><a href="featured-products.html" style="font-size:19px; color:#FFFFFF;"><b style="padding: 10px;">Editor-in-Chief</b></a></h2></div>	
+        
+        <ul class="products-grid" id="featured-grid" style="width: 635px; padding: 0px 40px;">
+            
+          
+    <p> <span><strong>Professor Madhumangal Pal</strong></span><br>
+                Professor, Department of Applied Mathematics with Oceanology and Computer Programming, <br>
+                Vidyasagar University, Midnapore-721102, India<br>
+                email: mmpalvu@gmail.com</p>
+                
+                <p><strong>Submit your paper to </strong> mmpalvu@gmail.com or submit through <strong>Online Submission </strong></p>
+            
+        </ul>
+            
+        <div ><h2 style="background-color: #026688;"><a href="featured-products.html" style="font-size:20px; color:#FFFFFF;"><b style="padding: 10px;">Member of Editorial Board</b></a></h2></div>	
+        
+        <ul class="products-grid" id="featured-grid" style="width: 635px; padding: 0px 40px;">
+            
+     
+      
+      <div>
+<p>
+</p><p><strong>Professor  Krassimir T. Atanassov, </strong>Bulgarian Academy of Sciences,email: krat@bas.bg<br>
+</p>
+<p><strong>Professor  Michael Gr. Voskoglou, </strong>Graduate Technological Educational Institute,
+26334 Patras-Greece, email: voskoglou@teipat.gr<br>
+</p>
+<p><strong>Professor O.D.Makinde, </strong>Director, Institute for Advanced 
+Research in Mathematics Modelling and Computations, Cape Peninsula University of Technology,
+South Africa, email: makinded@cput.ac.za   <br></p>
+<p><strong>Professor S.Arumugam, </strong>Kalasalingam University, India, email: s.arumugam.kalu@gmail.com<br></p>
+<p><strong>Professor Neculai Andrei, </strong>Research Institute for Informatics (ICI), Romania, email: nandrei@ici.ro<br></p>
+<p><strong>Professor J.E.Macias-Diaz, </strong>Universidad Aut´onoma de Aguascalientes, Mexico, email: jemacias@correo.uaa.mx<br></p>
+<p><strong>Professor G.C.Layek, </strong>The University of Burdwan, India<br></p>
+<p><strong>Professor D.C.Dalal, </strong>Indian Institute of Technology Guwahati, India, email: durga@iitg.ernet.in<br></p>
+<p><strong>Dr. Md. Sharif Uddin, </strong>Khulna University, Bangladesh, email: sharif_ku@yahoo.com<br></p>
+<p><strong>Dr. Anita Pal, </strong>National Institute of Technology Durgapur, India, email: anita.buie@gmail.com <br></p>
+<p><strong>Dr. Akul Rana, </strong>Narajole Raj College, Vidyasagar University, India, email: rana_akul@rediffmail.com <br></p>
+<p><strong>Dr. Sukumar Mondal, </strong>Raja N.L.Khan Womens College, Vidyasagar University, India, email: sm5971@rediffmail.com  <br></p>
+<p><strong>Dr. Monoranjan Bhowmik, </strong>V.T.T. College, Vidyasagar University, India, email: mbvttc@gmail.com<br></p>
+<p><strong>Dr. M.S. Sunitha, </strong>National Institute of Technology Calicut, India, e-mail: sunitha@nitc.ac.in<br></p>
+<p><strong>Dr. Mojtaba Moradi, </strong>University of Guilan, Iran, email: mmoradi@guilan.ac.ir<br></p>
+<p><strong>Dr. Sk. Md. Abu Nayeem, </strong>Aliah University, India, email: nayeem.math@aliah.ac.in<br></p>
+<p><strong>Dr. Biswajit Sarkar, </strong>Department of Applied Mathematics, Vidyasagar University, India, email: bsbiswajitsarkar@gmail.com <br></p>
+<p><strong>Dr. Wutiphol Sintunavarat, </strong>Department of Mathematics and Statistics, Thammasat University, Thailand, email: wutiphol@gmail.com<br></p>
+<p><strong>Dr. Pratibhamoy Das, </strong>Technical University of Berlin, Germany,email: pratibhamoy@gmail.com<br></p>
+<p><strong>Dr. Mijanur Rahaman Seikh, </strong>Kazi Nazrul University, Asansol, India, email: mrseikh@ymail.com<br></p>
+<p><strong>Dr. Md. Sharif Uddin, </strong>Jahangirnagar University, Dhaka, Bangladesh, email: msharifju@juniv.edu<br></p>
+ <p></p>
+
+
+</div>
+
+        </ul>
+</div>
+
+<!--<span class="featured_default_width" style="display:none; visibility:hidden"></span>-->
+ </div>
+
+</div></div>                </article>
+                <aside class="col-left sidebar">
+				
+				<script type="text/javascript">
+//<![CDATA[
+function toggleMenu(el, over)
+{
+	if (over) {
+		Element.addClassName(el, 'over');
+	}
+	else {
+		Element.removeClassName(el, 'over');
+	}
+}
+
+function toggleMenu1(el, over)
+{
+	if (over) {
+		Element.addClassName(el, 'over');
+	}
+	else {
+		Element.removeClassName(el, 'over');
+	}
+}
+//]]>
+</script>
+
+<!-- ================== Tree View ================ --> 
+
+
+<div class="block block-side-nav-container">    
+        <div class="block-title">
+        <strong><span>Browse Menu</span></strong>
+        </div>
+		<div class="block-content">
+		<div class="side-nav">
+       <ul class="category-treeview treeview-side treeview">
+                    <li class="level0 nav-1 parent" onmouseover="toggleMenu(this,1)" onmouseout="toggleMenu(this,0)">
+<a href="journal.html">
+<span>Journals by Subjects</span>
+</a>
+
+</li>                   
+
+
+
+
+                    <li class="level0 nav-2 parent" onmouseover="toggleMenu(this,1)" onmouseout="toggleMenu(this,0)">
+<a href="#">
+<span>Journals by Title</span>
+</a>
+
+</li>                    
+         
+             
+         </ul>
+	    </div>
+		</div>
+</div>
+
+<div class="block block-side-nav-container">    
+        <div class="block-title">
+        <strong><span>Browse Subjects</span></strong>
+        </div>
+		<div class="block-content">
+		<div class="side-nav">
+       <ul class="category-treeview treeview-side treeview">
+                    <li class="level0 nav-1 parent" onmouseover="toggleMenu(this,1)" onmouseout="toggleMenu(this,0)">
+<a href="mathematics.html">
+<span>Mathematics</span>
+</a>
+
+</li>                   
+
+                    <li class="level0 nav-2 parent" onmouseover="toggleMenu(this,1)" onmouseout="toggleMenu(this,0)">
+<a href="computer science.html">
+<span>Computer Science</span>
+</a>
+
+</li>                    
+
+                    <li class="level0 nav-3">
+<a href="physics.html">
+<span>Physics</span>
+</a>
+</li>                   
+ 
+         
+         </ul>
+	    </div>
+		</div>
+</div>
+
+<div class="block block-side-nav-container">    
+        <div class="block-title">
+        <strong><span>Resources</span></strong>
+        </div>
+		<div class="block-content">
+		<div class="side-nav">
+       <ul class="category-treeview treeview-side treeview">
+                    <li class="level0 nav-1 parent" onmouseover="toggleMenu(this,1)" onmouseout="toggleMenu(this,0)">
+<a href="for authors.html">
+<span>For Authors</span>
+</a>
+
+</li>                   
+
+                    <li class="level0 nav-2 parent" onmouseover="toggleMenu(this,1)" onmouseout="toggleMenu(this,0)">
+<a href="about.html">
+<span>About Us</span>
+</a>
+
+</li>                    
+
+                    <li class="level0 nav-3">
+<a href="contact.html">
+<span>Contact Us</span>
+</a>
+</li>                   
+ 
+                    <li class="level0 nav-4">
+<a href="how to order.html">
+<span>How to Order</span>
+</a>
+</li>                    
+
+                    <li class="level0 nav-5">
+<a href="call of editor.html">
+<span style="color:#E90003;">Call for Editor-in-Chief</span>
+</a>
+</li>               
+             
+         </ul>
+	    </div>
+		</div>
+</div>
+
+<div class="block block-banner">
+ <div class="tm_topbanner"><img src="skin/frontend/default/MAG090182/images/banners/left-banner-1.jpg" alt="" /></div> 
+</div>
+</aside>
+            </div>
+        </section>
+		
+        <footer class="footer-container">
+	<div class="footer">	 
+		
+		<div class="footer_bottom"> 
+			<ul class="links">
+            <li class="first" ><a href="#" title="Site Map"  style="color:#000000;">Home</a></li>
+            <li ><a href="#" title="Search Terms" style="color:#000000;" >Journals</a></li>
+           <li ><a href="#" title="Advanced Search" style="color:#000000;" >Conferences</a></li>
+           <li ><a href="#" title="Orders and Returns" style="color:#000000;" >For Authors</a></li>
+          <li ><a href="#" title="Contact Us" style="color:#000000;" >About Us</a></li>
+          <li class=" last" ><a href="#" title="Contact Us" style="color:#000000;" >Contact</a></li>
+            </ul>
+			        		<address style="color:#000000;">© Copyright House of Scientific Research. All Rights Reserved</address> 
+		</div>
+		<div class="social_icon">
+<ul class="social_icon">
+<li class="facebook"><a href="#">&nbsp;</a></li>
+<li class="twitter"><a href="#">&nbsp;</a></li>
+<li class="rss"><a href="#">&nbsp;</a></li>
+<li class="linkin"><a href="#">&nbsp;</a></li>
+</ul>
+</div> 
+    </div>
+</footer>
+ 
+         
+
+    </div>
+</div>
+</body>
+
+
+</html>
