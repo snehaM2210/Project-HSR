@@ -9,6 +9,19 @@ The aim of the project is to include all the basic code snippets for competitive
 1. Solve the issues which are listed
 2. Create your own issue and then send PR.
 
+
+### I am really excited to see your awesome PRs. As a recognition of your awesome efforts, I would be <span style="color:orange;">Shipping Free Schwag Kits 🎁</span> as a contribution gratitute.
+
+`Contributions for Hacktoberfest 2020 are welcome 🎉🎉`
+
+### SCHAWAG KIT INCLUDES:
+- $50 Amazon Gift Card for the Best Contributor💵
+- Branded T-Shirts👕
+- Hoodies😋
+- Bagpacks🎒
+- Stickers Pack😍
+- And Many More Exciting Prizes🎁
+
 Please refer to the project's style and contribution guidelines for submitting patches and additions. In general, we follow the "fork-and-pull" Git workflow.
 
  1. **Fork** the repo on GitHub
